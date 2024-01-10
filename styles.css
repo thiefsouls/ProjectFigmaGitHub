@@ -1,0 +1,131 @@
+* {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-image {
+  background-image: url('./assets/background1.png');  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(254, 254, 254);
+}
+
+.button-github {
+  border: 1px solid #4584FE;
+  background: none;
+  color: #4584FE;
+  width: 15%;
+  border-radius: 10px;
+}
+
+.button-github:hover {
+  background: #4584FE;
+  color: white;
+  transition: 0.5s;
+}
+
+.section-conhecimentos {
+  background-color: #161616;
+  color: white;
+
+}
+
+.knowledge img {
+  width: 20%;
+  margin-right: .5rem;
+}
+
+.knowledge {
+  text-align: left;
+}
+
+.knowledge span {
+  color: #707070;
+  font-weight: 300;
+}
+
+.knowledge p {
+  font-size: 1.2rem;
+}
+
+.spacing {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.section-about-me {
+  background-color: #707070;
+  color: rgb(250, 247, 247);
+  font-weight: 500;
+}
+
+.title-developer {
+  color: #4584FE;
+}
+
+.text-about-me {
+  color: #f9f4f4;
+
+}
+
+.progress-color {
+  background-color: #4584FE !important;
+  
+}
+
+.section-contact {
+  background-color: #161616;
+  color: rgb(243, 242, 242);
+}
+
+.icon-contact p {
+  color: #fffafa;
+  font-weight: 300;
+  margin: 0;
+}
+
+.icon-contact img {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+.icon-contact {
+  align-items: center;
+  margin-bottom: 2rem;
+  
+}
+
+.form-contact input {
+  width: 100%;
+  border: 1px solid #faf7f7;
+  background: none;
+  border-radius: 10px;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.form-contact textarea {
+  width: 100%;
+  border: 1px solid #707070;
+  background: none;
+  border-radius: 10px;
+  padding: 0.4rem 0.8rem;
+  color: rgb(248, 241, 241);
+  font-weight: 300;
+  margin-bottom: 2rem;
+  
+}
+
+.form-contact button {
+  width: 100%;
+  background-color: #4584FE;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  color: white;
+}
