@@ -57,6 +57,10 @@
 }
 
 .section-about-me {
+  background-image: url(./assets/background.png);
+  background-size: cover;  
+  transform: rotate();
+  background-position: center;
   background-color: #707070;
   color: rgb(250, 247, 247);
   font-weight: 500;
@@ -77,6 +81,9 @@
 }
 
 .section-contact {
+  background-image: url(./assets/background.png);
+  background-size: cover;
+  background-position: center;
   background-color: #161616;
   color: rgb(243, 242, 242);
 }
